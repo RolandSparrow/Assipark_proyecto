@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 /*Login*/
 
 .fondo {
@@ -36,12 +41,12 @@
 }
 
 
-#titulo_login {
+#title-login {
     color: rgb(46, 43, 43);
     position: absolute;
     font-size: 56px;
     margin-top: 52px;
-    margin-left: 140px;
+    margin-left: 160px;
 }
 
 #logo_login {
@@ -49,10 +54,10 @@
     width: 130px;
     height: 130px;
     margin-top: 130px;
-    margin-left: 230px;
+    margin-left: 258px;
 }
 
-.container_formularios {
+.container_form {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -83,10 +88,10 @@ i {
     margin-top: 15px;
 }
 
-#container_input_button {
+#container-input-button {
     text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 17px;
+    margin-left: -17px;
 }
 
 #container_input_password input {
@@ -98,7 +103,7 @@ i {
 }
 
 
-.container_formularios button {
+.container_form button {
     height: 50px;
     width: 300px;
     color: white;
@@ -108,7 +113,7 @@ i {
     font-size: 20px;
 }
 
-.container_formularios button:hover {
+.container_form button:hover {
     background-color: rgb(57, 86, 218);
 }
 
@@ -128,8 +133,8 @@ i {
 
 #restore-password{
     position: absolute;
-    margin-top: 487px;
-    margin-left: 175px;
+    margin-top: 468px;
+    margin-left: 195px;
 }
 
 #restore-password a {
@@ -156,7 +161,7 @@ i {
 
 #title-container-restore {
     font-size: 30px;
-    margin-top: 62px;
+    margin-top: 53px;
 }
 
 #paragraph-container-restore {
@@ -226,6 +231,51 @@ i {
     color: gray;
 }
 
+/*new-password*/
+
+#form-new-password{
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+}
+
+#header-form{
+    text-align: inherit;
+    padding: 1rem;
+    border: solid 1px;
+    background-color: rgb(229, 226, 226);
+}
+
+#cont-form-new-password{
+    border: solid 1px;
+    
+}
+
+.input-new-password{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
 
 
 
+#submit-new-password {
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 8rem;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
