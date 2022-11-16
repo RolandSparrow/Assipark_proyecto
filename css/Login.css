@@ -1,0 +1,231 @@
+/*Login*/
+
+.fondo {
+    position: absolute;
+    z-index: -3;
+}
+
+.imagen_fondo {
+    height: 598px;
+    width: 1270px;
+    margin-left: -7.5px;
+    margin-top: -7.5px;
+}
+
+#icono {
+    position: absolute;
+    background-color: rgb(25, 133, 241);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-left: 72px;
+    border: none;
+}
+
+#icono:hover {
+    background-color: rgb(25, 133, 241);
+
+}
+
+#icono i {
+    color: white;
+    margin-top: -20px;
+    margin-left: -18px;
+    font-size: 2.5rem;
+}
+
+
+#titulo_login {
+    color: rgb(46, 43, 43);
+    position: absolute;
+    font-size: 56px;
+    margin-top: 52px;
+    margin-left: 140px;
+}
+
+#logo_login {
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    margin-top: 130px;
+    margin-left: 230px;
+}
+
+.container_formularios {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 620px;
+}
+
+.container_inputs {
+    padding: 312px 122px 95px 132px;
+    margin-top: -2rem;
+}
+
+i {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.container_inputs input {
+    width: 370px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 21.5px;
+}
+
+#container_input_password {
+    margin-top: 15px;
+}
+
+#container_input_button {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#container_input_password input {
+    background-color: rgb(238, 230, 230);
+}
+
+#container_input_text input {
+    background-color: rgb(238, 230, 230);
+}
+
+
+.container_formularios button {
+    height: 50px;
+    width: 300px;
+    color: white;
+    background-color: rgb(57, 172, 218);
+    border-color: rgba(57, 172, 218, 0);
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.container_formularios button:hover {
+    background-color: rgb(57, 86, 218);
+}
+
+
+#button_register {
+    background-color: rgb(122, 212, 234);
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: 230px;
+}
+
+#button_register:hover {
+    background-color: rgb(127, 176, 255);
+}
+
+#restore-password{
+    position: absolute;
+    margin-top: 487px;
+    margin-left: 175px;
+}
+
+#restore-password a {
+    text-decoration: none;
+    color: rgb(83, 81, 81);
+}
+
+/*restore-password*/
+
+.recovery-container {
+    position: absolute;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.container_forms {
+    display: flex;
+    margin-left: 560px;
+}
+
+
+#title-container-restore {
+    font-size: 30px;
+    margin-top: 62px;
+}
+
+#paragraph-container-restore {
+    font-size: 18px;
+    text-align: center;
+    margin-right: -28px;
+}
+
+
+
+.inputs-container {
+    padding: 312px 122px 95px 132px;
+    
+}
+
+.inputs-container input {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 21.5px;
+
+}
+
+#input-button-restore {
+    margin-top: 15px;
+}
+
+button {
+    background-color: rgb(57, 172, 218);
+    color: white;
+    font-size: 20px;
+    height: 50px;
+    width: 300px;
+    margin-left: 30px;
+    border-radius: 20px;
+    border-color: rgba(57, 172, 218, 0);
+}
+
+button:hover {
+    background-color: rgb(57, 86, 218);
+}
+
+#icono-restore{
+    position: absolute;
+    background-color: rgb(25, 133, 241);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-left: 72px;
+    border: none;
+}
+
+#icono-restore i {
+    color: white;
+    margin-top: 5px;
+    margin-left: 7px;
+    font-size: 2.5rem;
+}
+
+
+i {
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 15px;
+    color: gray;
+}
+
+
+
+
