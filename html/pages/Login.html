@@ -10,38 +10,35 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    <div class="background-login">
-        <img class="background-image" src="../../img/fondo.png" alt="">
-    </div>
-    <div class="image-login">
-        <img src="../../img/img-login-asi.png" alt="">
+    <div 
+        class="fondo"><img class="imagen_fondo" src="../../img/Login3.png" alt="">
     </div>
 <div>
     <form action="../../index.html">
-        <button id="icono-login">
+        <button id="icono">
             <i class="fa-solid fa-arrow-left"></i>
         </button>
     </form>
 </div>
-<div class="form-container-login">
+<div class="container_form">
     <h2 id="title-login">Iniciar Sesión</h2>
     <img src="../../img/logo_assipark.jpg" id="logo_login">
-    <form action="../page/administrador.html" >
-        <div class="inputs-container-login">
-            <div id="input-container-text">
+    <form action="../../base_de_datos/login.php"  method="post">
+        <div class="container_inputs">
+            <div id="container_input_text">
                 <i class="fa-solid fa-user"></i>
-                <input type="number" placeholder="Numero Identificación" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
+                <input type="number" placeholder="Numero Identificación" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" name="identificacion" />
             </div>
-            <div id="input-container-password">
+            <div id="container_input_password">
                 <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="contraseña" required pattern="[A-Za-z]{1-8}">
+                <input type="password" placeholder="contraseña" required pattern="[A-Za-z]{1-8}" name="contra">
             </div>
-            <div id="input-container-button">
+            <div id="container-input-button">
                 <button>Iniciar Sesión</button>
             </div>
         </div>
     </form>
-    <div id="restore-password-login">
+    <div id="restore-password">
         <a href="restore_password.html">
             <h2>¿Olvidaste tu contraseña?</h2>
         </a>
