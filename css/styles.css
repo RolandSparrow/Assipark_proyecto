@@ -18,6 +18,9 @@ header{
     height: 70px;
     padding: 5px 10px;
     list-style: none;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
 
 }
 
@@ -103,6 +106,11 @@ header a button:hover{
 #home-section{
     background: linear-gradient(15deg, rgb(69, 32, 252), rgb(49, 214, 255));
     
+}
+
+#img-home{
+    margin-top: 88px;
+    height: 505px;
 }
 
 #cont-section-home{

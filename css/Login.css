@@ -1,26 +1,28 @@
 *{
     margin: 0%;
     padding: 0%;
+    box-sizing: border-box;
 }
 
 /*Login*/
 
-.fondo {
+.background-login {
     position: absolute;
     z-index: -3;
 }
 
-.imagen_fondo {
-    height: 598px;
-    width: 1270px;
+.background-image {
+    height: 787px;
+    width: 1100px;
     margin-left: -7.5px;
     margin-top: -7.5px;
 }
 
-#icono {
+#icono-login{
     position: absolute;
+    z-index: 3;
     background-color: rgb(25, 133, 241);
-    width: 50px;
+    width: 60px;
     height: 50px;
     border-radius: 50px;
     margin-top: 17px;
@@ -28,82 +30,55 @@
     border: none;
 }
 
-#icono:hover {
-    background-color: rgb(25, 133, 241);
-
+#icono-login:hover {
+    background-color: rgb(69, 133, 185);
 }
 
-#icono i {
+#icono-login i {
     color: white;
-    margin-top: -20px;
-    margin-left: -18px;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-top: -23px;
+    margin-left: -19px;
 }
 
+.image-login{
+    position: absolute;
+    left: 90px;
+    margin-top: 130px;
+}
+
+.image-login img {
+    width: 640px;
+    height: 620px;
+}
 
 #title-login {
     color: rgb(46, 43, 43);
     position: absolute;
     font-size: 56px;
-    margin-top: 52px;
-    margin-left: 160px;
+    margin-top: 80px;
+    margin-left: 140px;
 }
 
 #logo_login {
     position: absolute;
     width: 130px;
     height: 130px;
-    margin-top: 130px;
-    margin-left: 258px;
+    margin-top: 160px;
+    margin-left: 230px;
 }
 
-.container_form {
+.form-container-login {
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 620px;
+    width: 600px;
+    height: 251px;
+    margin-top: 100px;
+    margin-left: 850px;
 }
 
-.container_inputs {
-    padding: 312px 122px 95px 132px;
-    margin-top: -2rem;
-}
-
-i {
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 30px;
-    color: gray;
-}
-
-.container_inputs input {
-    width: 370px;
-    height: 50px;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 21.5px;
-}
-
-#container_input_password {
-    margin-top: 15px;
-}
-
-#container-input-button {
-    text-align: center;
-    margin-top: 17px;
-    margin-left: -17px;
-}
-
-#container_input_password input {
-    background-color: rgb(238, 230, 230);
-}
-
-#container_input_text input {
-    background-color: rgb(238, 230, 230);
-}
-
-
-.container_form button {
+.form-container-login button {
     height: 50px;
     width: 300px;
     color: white;
@@ -113,7 +88,47 @@ i {
     font-size: 20px;
 }
 
-.container_form button:hover {
+.inputs-container-login {
+    padding: 312px 122px 95px 132px;
+}
+
+i {
+    z-index: 2;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.inputs-container-login input {
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 21.5px;
+}
+
+#input-container-text input {
+    background-color: rgb(238, 230, 230);
+}
+
+#input-container-password {
+    margin-top: 15px;
+}
+
+#input-container-password input {
+    background-color: rgb(238, 230, 230);
+}
+
+
+#input-container-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+
+.form-container-login button:hover {
     background-color: rgb(57, 86, 218);
 }
 
@@ -131,17 +146,21 @@ i {
     background-color: rgb(127, 176, 255);
 }
 
-#restore-password{
+#restore-password-login {
+    margin-top: 540px;
+    margin-left: 175px;
+    z-index: 3;
     position: absolute;
-    margin-top: 468px;
-    margin-left: 195px;
 }
 
-#restore-password a {
+#restore-password-login a  {
     text-decoration: none;
-    color: rgb(83, 81, 81);
+    color: black;
 }
 
+#restore-password-login h2  {
+    margin-top: -2.2rem;
+}
 /*restore-password*/
 
 .recovery-container {
@@ -231,51 +250,3 @@ i {
     color: gray;
 }
 
-/*new-password*/
-
-#form-new-password{
-    width: 500px;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-}
-
-#header-form{
-    text-align: inherit;
-    padding: 1rem;
-    border: solid 1px;
-    background-color: rgb(229, 226, 226);
-}
-
-#cont-form-new-password{
-    border: solid 1px;
-    
-}
-
-.input-new-password{
-    width: 90%;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    font-family: 'calibri';
-    font-size: 18px;
-}
-
-
-
-#submit-new-password {
-    background: #1f53c5;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 8rem;
-    font-size: 16px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-}

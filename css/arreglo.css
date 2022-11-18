@@ -1,0 +1,59 @@
+#icono {
+    position: absolute;
+    background-color: rgb(25, 133, 241);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 17px;
+    margin-left: 72px;
+    border: none;
+}
+
+/*new-password*/
+
+#form-new-password{
+    width: 500px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+}
+
+#header-form{
+    text-align: inherit;
+    padding: 1rem;
+    border: solid 1px;
+    background-color: rgb(229, 226, 226);
+}
+
+#cont-form-new-password{
+    border: solid 1px;
+    
+}
+
+.input-new-password{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+
+
+
+#submit-new-password {
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 8rem;
+    font-size: 16px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}

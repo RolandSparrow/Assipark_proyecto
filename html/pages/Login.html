@@ -10,35 +10,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
-    <div 
-        class="fondo"><img class="imagen_fondo" src="../../img/Login3.png" alt="">
+    <div class="background-login">
+        <img class="background-image" src="../../img/fondo.png" alt="">
+    </div>
+    <div class="image-login">
+        <img src="../../img/img-login-asi.png" alt="">
     </div>
 <div>
     <form action="../../index.html">
-        <button id="icono">
+        <button id="icono-login">
             <i class="fa-solid fa-arrow-left"></i>
         </button>
     </form>
 </div>
-<div class="container_form">
+<div class="form-container-login">
     <h2 id="title-login">Iniciar Sesión</h2>
     <img src="../../img/logo_assipark.jpg" id="logo_login">
     <form action="../page/administrador.html" >
-        <div class="container_inputs">
-            <div id="container_input_text">
+        <div class="inputs-container-login">
+            <div id="input-container-text">
                 <i class="fa-solid fa-user"></i>
                 <input type="number" placeholder="Numero Identificación" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" />
             </div>
-            <div id="container_input_password">
+            <div id="input-container-password">
                 <i class="fa-solid fa-lock"></i>
                 <input type="password" placeholder="contraseña" required pattern="[A-Za-z]{1-8}">
             </div>
-            <div id="container-input-button">
+            <div id="input-container-button">
                 <button>Iniciar Sesión</button>
             </div>
         </div>
     </form>
-    <div id="restore-password">
+    <div id="restore-password-login">
         <a href="restore_password.html">
             <h2>¿Olvidaste tu contraseña?</h2>
         </a>
